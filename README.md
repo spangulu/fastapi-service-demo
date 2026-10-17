@@ -1,1 +1,11 @@
-# portfolio-demo-03  Python FastAPI service demo  ## Overview  This repository is a sample project for a portfolio.  ## Tech Stack  - GitHub - Java / Python / JavaScript / .NET  ## Notes  This sample was created to demonstrate project structure and GitHub publishing workflow.
+# FastAPI Service Demo
+
+Minimal Python FastAPI service and API test by **Sarath Panguluri**.
+
+```bash
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+# Open http://127.0.0.1:8000/docs
+```
+
+Optional: `pytest`. Demo not executed during publication.
